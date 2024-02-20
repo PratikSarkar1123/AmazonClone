@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+
+.navbar {
+  background-color: #0f1111;
+  height: 60px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 110px;
+  /* margin-left: 5px; */
+}
+
+.logo {
+  background-image: url("https://i.pinimg.com/736x/cb/66/8c/cb668cd9b0bf1220046193aa966a19cc.jpg");
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+
+.border {
+  border: 2px solid transparent;
+}
+
+.border:hover {
+  border: 1px solid white;
+}
+
+.add-first {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+.add-second {
+  font-size: 1 rem;
+  margin-left: 3px;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+/**box 3 **/
+
+.nav-search {
+  display: flex;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #febd68;
+  justify-content: space-evenly;
+}
+
+.nav-search:hover {
+  border: 2px solid #febd68;
+}
+
+.search-select {
+  background-color: #eeeaea;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  width: 50px;
+  text-align: center;
+  border: none;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 1.05rem;
+  border: none;
+}
+
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2;
+  color: #0f1111;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/**box4&5**/
+span {
+  font-size: 0.7rem;
+}
+
+.nav-second {
+  font-size: 0.85rem;
+}
+
+/**box6**/
+.nav-cart i {
+  font-size: 30px;
+}
+.nav-cart {
+  font-size: 0.85rem;
+  margin-right: 2%;
+}
+
+/**panel**/
+.panel {
+  display: flex;
+  height: 40px;
+  background-color: #222f3d;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-option p {
+  display: inline;
+  margin-right: 15px;
+}
+
+.panel-option {
+  width: 70%;
+  font-size: 0.85rem;
+}
+
+.panel-deals {
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+
+/**hero-section**/
+.hero-section {
+  background-image: url("https://i.blogs.es/7425b4/amazon-music/1366_521.jpg");
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-message {
+  background-color: azure;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.hero-message a {
+  text-decoration: none;
+  color: #09b5d3;
+}
+
+/**shop-section**/
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #d7d5ce;
+}
+
+.box {
+  /* border: 2px solid black; */
+  height: 290px;
+  width: 22%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+
+.box-image {
+  height: 220px;
+  background-size: cover;
+  margin-top: 20px;
+}
+
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.box-content p {
+  margin-top: 5px;
+  color: #09b5d3;
+}
+
+.box-content h3 {
+  text-align: center;
+}
+
+/**footer**/
+
+.foot-panel1 {
+  background-color: #37475a;
+  height: 50px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.foot-panel2 {
+  background-color: #232f3e;
+  color: #dddddd;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: first baseline;
+}
+
+.foot-panel2 p {
+  font-weight: 700;
+  color: white;
+}
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 8px;
+}
+
+ul {
+  margin-top: 50px;
+}
+
+.foot-panel3 {
+  height: 70px;
+  background-color: #232f3e;
+  border-top: 0.5px solid white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: first baseline;
+}
+
+.logo-panel3 {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/gc/designs/livepreview/amazon_dkblue_noto_email_v2016_us-main._CB468775337_.png");
+  background-size: cover;
+  background-color: #37475a;
+  height: 50px;
+  width: 110px;
+}
+
+.foot-panel4 {
+  background-color: #131a22;
+  color: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 78px;
+}
+
+.pages {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.turnRed:hover {
+  color: rgb(211, 71, 71);
+  text-decoration: underline;
+}
+
+.hero-message a:hover {
+  color: rgb(211, 71, 71);
+  text-decoration: underline;
+}
+
+.panel-option p:hover {
+  border: 0.3px solid white;
+}
